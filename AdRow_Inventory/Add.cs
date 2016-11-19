@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AdRow_Inventory
 {
-    public partial class Form1 : Form
+    public partial class frmadd : Form
     {
-        public Form1()
+        public frmadd()
         {
             InitializeComponent();
+        }
+
+        private void frmadd_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
